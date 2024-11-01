@@ -47,6 +47,5 @@ export default async function generateResponse(prompt: string, sender: string) {
   // save model output to history
   updateHistory("model", responseText);
 
-  // return response
   return responseText;
 }
