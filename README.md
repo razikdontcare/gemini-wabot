@@ -24,7 +24,10 @@ A simple WhatsApp personal assistant using Gemini API.
 
 2. Install dependencies:
     ```sh
+    # npm
     npm install
+    # yarn
+    yarn
     ```
 
 3. Copy the example environment file and update it with your configuration:
@@ -63,7 +66,10 @@ A simple WhatsApp personal assistant using Gemini API.
 
 To start the application, run:
 ```sh
+# npm
 npm start
+# yarn
+yarn start
 ```
 
 ## Environment Variables
