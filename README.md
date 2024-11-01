@@ -10,7 +10,6 @@ A simple WhatsApp personal assistant using Gemini API.
   - [Database Setup](#database-setup)
   - [Usage](#usage)
   - [Environment Variables](#environment-variables)
-  - [Project Structure](#project-structure)
   - [Key Files and Directories](#key-files-and-directories)
   - [Contributing](#contributing)
   - [License](#license)
@@ -78,31 +77,6 @@ The following environment variables are used in this project:
 - `DB_USER`: The username of the MySQL user.
 - `DB_PASSWORD`: The password of the MySQL user.
 - `DB_NAME`: The name of the MySQL database.
-
-## Project Structure
-
-```
-[`.env.example`](.env.example)
-.gitignore
-[`eslint.config.mjs`](eslint.config.mjs)
-[`history.json`](history.json)
-[`package.json`](package.json)
-[`README.md`](README.md)
-src/
-    db/
-        index.ts
-    index.ts
-    handler.ts
-    types.ts
-    lib/
-        dateformat.ts
-        gemini/
-            history.ts
-            index.ts
-            system.ts
-    types.ts
-[`tsconfig.json`](tsconfig.json )
-```
 
 ## Key Files and Directories
 
