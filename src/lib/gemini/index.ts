@@ -7,7 +7,10 @@ import { updateHistory } from "./history";
 const apiKey = process.env.GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(apiKey!);
 
-export default async function generateResponse(prompt: string, sender: string) {
+export default async function generateResponse(
+  prompt: string,
+  sender: string
+): Promise<string> {
   // Load history
   const history = fs.existsSync("history.json")
     ? fs.readFileSync("history.json", "utf-8")
