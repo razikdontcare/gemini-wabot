@@ -104,7 +104,7 @@ The following environment variables are used in this project:
 
 ## TODO
 
-- [ ] Prompt with Media (Iamge and Video)
+- [ ] Prompt with Media (Image and Video)
 - [ ] Search something on the internet
 
 ## Contributing
