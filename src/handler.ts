@@ -30,6 +30,7 @@ export default async function messageHandler({
 
     const groupId = isGroup ? remoteJid : "";
 
+    // wrapper untuk mengirim pesan
     const sendMessage = (text: string, reply: boolean = true) =>
       socket.sendMessage(
         remoteJid!,
