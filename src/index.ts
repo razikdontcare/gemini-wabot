@@ -51,6 +51,8 @@ async function init(sessionName: string = "default") {
     },
   });
 
+  store.bind(socket.ev);
+
   socket.ev.on("creds.update", saveCreds);
 
   socket.ev.on("connection.update", (update) => {
