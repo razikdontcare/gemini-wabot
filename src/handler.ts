@@ -25,6 +25,8 @@ export default async function messageHandler({
     const { remoteJid, fromMe, participant } = key;
     const body = message?.conversation || message?.extendedTextMessage?.text;
     const isGroup = remoteJid?.endsWith("@g.us");
+
+    // gunakan variabel ini untuk menentukan apakah pengguna adalah pemilik bot (kembangkan sesuai kebutuhan. cth: tambah fitur yang hanya bisa diakses oleh pemilik bot)
     const isOwner =
       (isGroup ? participant : remoteJid) === ownerNumber + "@s.whatsapp.net";
 
