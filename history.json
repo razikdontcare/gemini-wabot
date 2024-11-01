@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "[from Wannabe Assistant]\nhai, tolong jelaskan apa itu perlin noise"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "Hai! 👋  Perlin noise itu seperti pola acak yang terlihat natural dan halus, kayak tekstur kayu atau batu.  Bayangkan kamu menggambar titik-titik kecil dengan nilai warna yang acak.  Perlin noise menghubungkan titik-titik ini dengan cara yang halus, jadi hasilnya bukan cuma acak, tapi juga ada pola yang indah dan alami.  \n\nSering digunakan untuk membuat efek visual yang realistis dalam game, film, dan seni digital. 😄  \n\nApa lagi yang mau kamu tanyakan tentang Perlin noise? Atau kamu lagi ngerjain proyek seru yang butuh efek visual? 🎨  Cerita dong!"
+      }
+    ]
+  }
+]
