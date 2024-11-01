@@ -18,8 +18,7 @@
   },
   "scripts": {
     "start": "npx tsc && node dist/index.js",
-    "build": "npx tsc",
-    "dev": "npx tsc -w",
+    "dev": "npx ts-node src/index.ts",
     "lint": "eslint 'src/**/*.{ts,tsx}'"
   },
   "devDependencies": {
@@ -28,6 +27,7 @@
     "@typescript-eslint/parser": "^8.12.2",
     "eslint": "^9.13.0",
     "globals": "^15.11.0",
+    "ts-node": "^10.9.2",
     "typescript-eslint": "^8.12.2"
   }
 }
