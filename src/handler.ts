@@ -23,16 +23,7 @@ export default async function messageHandler({
     const { key, pushName, broadcast, message } = msg;
     const messageTimestamp = msg.messageTimestamp;
     const { remoteJid, fromMe, participant } = key;
-    const body =
-      message?.conversation ||
-      message?.imageMessage?.caption ||
-      message?.videoMessage?.caption ||
-      message?.extendedTextMessage?.text ||
-      message?.documentMessage?.caption ||
-      message?.documentWithCaptionMessage?.message?.documentMessage?.caption ||
-      message?.viewOnceMessageV2?.message?.conversation ||
-      message?.viewOnceMessageV2?.message?.imageMessage?.caption ||
-      message?.viewOnceMessageV2?.message?.videoMessage?.caption;
+    const body = message?.conversation || message?.extendedTextMessage?.text;
     const isGroup = remoteJid?.endsWith("@g.us");
     const isOwner =
       (isGroup ? participant : remoteJid) === ownerNumber + "@s.whatsapp.net";
