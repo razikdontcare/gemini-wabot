@@ -12,6 +12,7 @@ A simple WhatsApp personal assistant using Gemini API.
   - [Model Behavior](#model-behavior)
   - [Environment Variables](#environment-variables)
   - [Key Files and Directories](#key-files-and-directories)
+  - [TODO](#todo)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -100,6 +101,11 @@ The following environment variables are used in this project:
 - **src/lib/gemini/index.ts**: Gemini API client.
 - **src/lib/gemini/history.ts**: Functions for retrieving historical data from Gemini.
 - **src/lib/gemini/system.ts**: System instructions for Gemini.
+
+## TODO
+
+- [ ] Prompt with Media (Iamge and Video)
+- [ ] Search something on the internet
 
 ## Contributing
 
