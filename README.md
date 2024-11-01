@@ -9,6 +9,7 @@ A simple WhatsApp personal assistant using Gemini API.
   - [Installation](#installation)
   - [Database Setup](#database-setup)
   - [Usage](#usage)
+  - [Model Behavior](#model-behavior)
   - [Environment Variables](#environment-variables)
   - [Key Files and Directories](#key-files-and-directories)
   - [Contributing](#contributing)
@@ -71,6 +72,11 @@ npm start
 # yarn
 yarn start
 ```
+
+## Model Behavior
+
+Edit the `src/lib/gemini/system.ts` file to modify the behavior of the bot.
+If your bot's response is blocked by the Gemini API, refer to the [Safety Settings Docs](https://ai.google.dev/gemini-api/docs/safety-settings) for more information on how to adjust the safety settings. This can be useful if your bot's behavior is determined as "unsafe" by the API. For example, if you want the bot to respond with a message that contains potentially harmful content, you can disable the safety settings.
 
 ## Environment Variables
 
